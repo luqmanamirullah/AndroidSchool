@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/discount2"
+            android:translationZ="10dp" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_product"
+            android:padding="10dp">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="320dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center|top"
+                    android:src="@drawable/bg_product2" />
+                <ImageView
+                    android:id="@+id/imageViewnext"
+                    android:translationZ="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+
+                    android:visibility="visible"
+                    android:src="@drawable/next" />
+                <ImageView
+                    android:id="@+id/imageViewback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:visibility="visible"
+                    android:src="@drawable/back" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="250dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:visibility="gone"
+                    android:src="@drawable/pizza2" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="250dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:visibility="visible"
+                    android:src="@drawable/pizza" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_gravity="center|bottom">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/nama_pizza"
+                    android:layout_gravity="center|top"
+                    android:textColor="@color/green"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/desc_pizza"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:textColor="@color/brown"
+                    android:textSize="15dp"
+                    android:gravity="start"
+                    android:layout_marginBottom="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textStyle="bold"
+                    android:text="@string/harga_pizza"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:textColor="@color/red"
+                    android:textSize="15dp"
+                    android:textAlignment="center"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center|bottom"
+                    android:backgroundTint="@color/purple_200"
+                    android:text="@string/button_txt"
+                    android:textColor="@color/yellow"/>
+            </FrameLayout>
+
+        </FrameLayout>
+    </FrameLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/conaryandroid/app/src/main/res/drawable/bg_navbar.xml" value="0.1275" />
+        <entry key="..\:/AndroidStudioProjects/conaryandroid/app/src/main/res/drawable/bg_notif.xml" value="0.1275" />
+        <entry key="..\:/AndroidStudioProjects/conaryandroid/app/src/main/res/drawable/bg_pp.xml" value="0.1275" />
+        <entry key="..\:/AndroidStudioProjects/conaryandroid/app/src/main/res/drawable/bg_skeleton2.xml" value="0.1275" />
+        <entry key="..\:/AndroidStudioProjects/conaryandroid/app/src/main/res/drawable/ic_alert.xml" value="0.1275" />
+        <entry key="..\:/AndroidStudioProjects/conaryandroid/app/src/main/res/drawable/ic_chartrank.xml" value="0.1275" />
+        <entry key="..\:/AndroidStudioProjects/conaryandroid/app/src/main/res/drawable/ic_competition.xml" value="0.1275" />
+        <entry key="..\:/AndroidStudioProjects/conaryandroid/app/src/main/res/drawable/ic_fakeimg.xml" value="0.1275" />
+        <entry key="..\:/AndroidStudioProjects/conaryandroid/app/src/main/res/drawable/ic_fakeimg2.xml" value="0.1275" />
+        <entry key="..\:/AndroidStudioProjects/conaryandroid/app/src/main/res/drawable/ic_learn.xml" value="0.1275" />
+        <entry key="..\:/AndroidStudioProjects/conaryandroid/app/src/main/res/drawable/ic_medal.xml" value="0.1275" />
+        <entry key="..\:/AndroidStudioProjects/conaryandroid/app/src/main/res/drawable/ic_notif.xml" value="0.1275" />
+        <entry key="..\:/AndroidStudioProjects/conaryandroid/app/src/main/res/drawable/ic_profile.xml" value="0.1275" />
+        <entry key="..\:/AndroidStudioProjects/conaryandroid/app/src/main/res/layout/activity_competition.xml" value="0.19322916666666667" />
+        <entry key="..\:/AndroidStudioProjects/conaryandroid/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/AndroidStudioProjects/conaryandroid/app/src/main/res/layout/activity_profile.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/conaryandroid/app/src/main/res/layout/activity_rank.xml" value="0.17916666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

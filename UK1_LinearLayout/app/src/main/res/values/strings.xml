@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UK1_LinearLayout</string>
+    <string name="baris1">Baris Pertama</string>
+    <string name="baris2">Baris Kedua</string>
+</resources>

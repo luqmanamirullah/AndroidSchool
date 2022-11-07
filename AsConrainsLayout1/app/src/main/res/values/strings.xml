@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Educational Page</string>
+    <string name="title">Conary Learn</string>
+    <string name="sayHello">Hello!</string>
+    <string name="name">JhonDoe</string>
+    <string name="game">Pemograman C#</string>
+    <string name="android">Pemograman Java</string>
+    <string name="web">Pemograman JavaScript</string>
+    <string name="guru">Mentor</string>
+    <string name="tugas">Tugas Hari Ini!</string>
+</resources>

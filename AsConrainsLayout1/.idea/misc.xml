@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/AsConrainsLayout1/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.131" />
+        <entry key="..\:/AndroidStudioProjects/AsConrainsLayout1/app/src/main/res/drawable/ic_baseline_show_chart_24.xml" value="0.1475" />
+        <entry key="..\:/AndroidStudioProjects/AsConrainsLayout1/app/src/main/res/drawable/ic_bgmapel.xml" value="0.1945" />
+        <entry key="..\:/AndroidStudioProjects/AsConrainsLayout1/app/src/main/res/drawable/ic_bgmapel2.xml" value="0.1945" />
+        <entry key="..\:/AndroidStudioProjects/AsConrainsLayout1/app/src/main/res/drawable/ic_bgmapel3.xml" value="0.1945" />
+        <entry key="..\:/AndroidStudioProjects/AsConrainsLayout1/app/src/main/res/drawable/ic_bgtugas.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/AsConrainsLayout1/app/src/main/res/drawable/ic_bgtugas1.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/AsConrainsLayout1/app/src/main/res/drawable/ic_chart.xml" value="0.1475" />
+        <entry key="..\:/AndroidStudioProjects/AsConrainsLayout1/app/src/main/res/drawable/ic_circlebg.xml" value="0.1475" />
+        <entry key="..\:/AndroidStudioProjects/AsConrainsLayout1/app/src/main/res/drawable/ic_circlephoto.xml" value="0.1575" />
+        <entry key="..\:/AndroidStudioProjects/AsConrainsLayout1/app/src/main/res/drawable/ic_laptop.xml" value="0.1475" />
+        <entry key="..\:/AndroidStudioProjects/AsConrainsLayout1/app/src/main/res/drawable/ic_laptop2.xml" value="0.1475" />
+        <entry key="..\:/AndroidStudioProjects/AsConrainsLayout1/app/src/main/res/drawable/ic_learn2.xml" value="0.1475" />
+        <entry key="..\:/AndroidStudioProjects/AsConrainsLayout1/app/src/main/res/drawable/ic_wave.xml" value="0.1355" />
+        <entry key="..\:/AndroidStudioProjects/AsConrainsLayout1/app/src/main/res/drawable/ic_wave3.xml" value="0.1955" />
+        <entry key="..\:/AndroidStudioProjects/AsConrainsLayout1/app/src/main/res/layout/activity_main.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

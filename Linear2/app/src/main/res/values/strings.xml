@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Linear2</string>
+    <string name="fname">Name:</string>
+    <string name="lname">Last Name:</string>
+    <string name="birt_date">Birth Date:</string>
+    <string name="footer_powered">Powered By:</string>
+    <string name="input_fname">Your First Name</string>
+    <string name="input_lname">Your Last Name</string>
+    <string name="input_birthDate">DD/MM/YYYY</string>
+    <string name="input_nationality">Nationality</string>
+</resources>

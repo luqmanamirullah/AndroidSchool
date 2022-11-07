@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RelativeLayoutK2</string>
+    <string name="input_name">Nama</string>
+    <string name="input_locate">Alamat</string>
+    <string name="input_subject">Subjek</string>
+    <string name="message">Pesan</string>
+    <string name="send">Kirim</string>
+</resources>

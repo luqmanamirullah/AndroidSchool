@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/LuqmanAmirlullah_TugasFragment/app/src/main/res/drawable/bg_form.xml" value="0.1275" />
+        <entry key="..\:/AndroidStudioProjects/LuqmanAmirlullah_TugasFragment/app/src/main/res/drawable/bg_input.xml" value="0.1275" />
+        <entry key="..\:/AndroidStudioProjects/LuqmanAmirlullah_TugasFragment/app/src/main/res/drawable/bg_navbar.xml" value="0.1275" />
+        <entry key="..\:/AndroidStudioProjects/LuqmanAmirlullah_TugasFragment/app/src/main/res/drawable/bg_skeleton.xml" value="0.1275" />
+        <entry key="..\:/AndroidStudioProjects/LuqmanAmirlullah_TugasFragment/app/src/main/res/drawable/ic_fakeimg2.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/LuqmanAmirlullah_TugasFragment/app/src/main/res/drawable/ic_learn.xml" value="0.1275" />
+        <entry key="..\:/AndroidStudioProjects/LuqmanAmirlullah_TugasFragment/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/LuqmanAmirlullah_TugasFragment/app/src/main/res/layout/fragment_alert.xml" value="0.19322916666666667" />
+        <entry key="..\:/AndroidStudioProjects/LuqmanAmirlullah_TugasFragment/app/src/main/res/layout/homepage.xml" value="0.17916666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

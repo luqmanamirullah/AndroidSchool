@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AsFrameLayout1</string>
+    <string name="nama_pizza">Pizza Badag</string>
+    <string name="desc_pizza">Pizza dengan adonan yang empuk dan dibalut dengan rasa yang mengenakan</string>
+    <string name="harga_pizza">Rp 50.000</string>
+    <string name="button_txt">Buy Now!</string>
+</resources>

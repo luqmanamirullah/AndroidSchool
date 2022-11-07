@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UIproject</string>
+    <string name="title">LuqmanApp</string>
+    <string name="header1">Your Money</string>
+    <string name="header2">Lorem Ipsum</string>
+    <string name="foot_right">Right</string>
+    <string name="foot_left">Left</string>
+    <string name="current_money">RP1.000.000.000</string>
+</resources>
