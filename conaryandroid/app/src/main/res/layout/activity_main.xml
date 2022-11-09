@@ -196,54 +196,6 @@
             </RelativeLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="340dp"
-            android:layout_height="104dp"
-            android:background="@drawable/bg_skeleton"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/constraintLayout9"
-            app:layout_constraintVertical_bias="0.55">
-
-            <RelativeLayout
-                android:layout_width="270dp"
-                android:layout_height="10dp"
-                android:background="@drawable/bg_skeleton2"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.17">
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="270dp"
-                android:layout_height="10dp"
-                android:background="@drawable/bg_skeleton2"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.533"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="270dp"
-                android:layout_height="10dp"
-                android:background="@drawable/bg_skeleton2"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.528"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.851">
-
-            </RelativeLayout>
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -404,6 +356,51 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="340dp"
+        android:layout_height="104dp"
+        android:background="@drawable/bg_skeleton"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="409dp">
+
+        <RelativeLayout
+            android:layout_width="270dp"
+            android:layout_height="10dp"
+            android:background="@drawable/bg_skeleton2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.17">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="270dp"
+            android:layout_height="10dp"
+            android:background="@drawable/bg_skeleton2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.533"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="270dp"
+            android:layout_height="10dp"
+            android:background="@drawable/bg_skeleton2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.528"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.851">
+
+        </RelativeLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
