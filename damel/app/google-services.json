@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "716429379196",
+    "project_id": "damel-92f2d",
+    "storage_bucket": "damel-92f2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716429379196:android:26c666964fd5bc932f2bf9",
+        "android_client_info": {
+          "package_name": "com.damel.damel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716429379196-h3suqopgvcubc1fpglpck05orgqh5gc0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.damel.damel",
+            "certificate_hash": "1ba113f4acceaeb91a2ebd0a49a163df95a247ff"
+          }
+        },
+        {
+          "client_id": "716429379196-d5uvtiur02d3i7kjpemhbtvk0bkjdbet.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtdMHU3PA1c3OqJ7-i7RrrI97er3WmNtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716429379196-d5uvtiur02d3i7kjpemhbtvk0bkjdbet.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

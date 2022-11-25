@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SearchActivity">
+    <LinearLayout
+        android:id="@+id/search_section"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:backgroundTint="@color/primary"
+        android:background="@drawable/layout_radius2"
+        android:translationZ="-1dp"
+        >
+        <androidx.appcompat.widget.LinearLayoutCompat
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/search_bar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:background="@drawable/search_radius"
+                app:iconifiedByDefault="false"
+                app:queryHint="Cari Disini..." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Yang Pernah Anda Cari : "
+                android:textColor="@color/white"
+                android:textSize="6pt" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@color/secondary"
+                    android:text="Tukang Kebun"
+                    android:textColor="@color/black"
+                    android:textSize="3pt"
+                    app:cornerRadius="20dp"
+                    app:strokeColor="@color/light_gray"
+                    app:strokeWidth="1dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@color/secondary"
+                    android:text="Tukang Pijit"
+                    android:textColor="@color/black"
+                    android:textSize="3pt"
+                    app:cornerRadius="20dp"
+                    app:strokeColor="@color/light_gray"
+                    app:strokeWidth="1dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@color/secondary"
+                    android:text="Pacar Sewaan"
+                    android:textColor="@color/black"
+                    android:textSize="3pt"
+                    app:cornerRadius="20dp"
+                    app:strokeColor="@color/light_gray"
+                    app:strokeWidth="1dp" />
+            </LinearLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/filter_section"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/search_section">
+        <LinearLayout
+            android:id="@+id/filter"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Macam Macam Pekerjaan"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:textColor="@color/dark_gray"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="10dp"
+                android:id="@+id/rv_employe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rating"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="8pt"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp" />
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/secondary"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/secondary"
+                    android:orientation="vertical">
+                    <RatingBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:rating="5"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pilih Rating Pekerja Yang Kamu Inginkan"/>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Kelamin"
+                    android:textSize="10pt"
+                    android:textColor="@color/dark_gray"/>
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/secondary"
+                        android:layout_marginRight="30dp"
+                        android:paddingHorizontal="10dp"
+
+                        >
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pria" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/secondary"
+                        android:layout_marginRight="30dp"
+                        android:paddingHorizontal="10dp"
+
+                        >
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Wanita" />
+                    </LinearLayout>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Batas Harga"
+                    android:layout_marginTop="30dp"
+                    android:textSize="10pt"
+                    android:textColor="@color/dark_gray"/>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="20dp">
+                        <EditText
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:hint="MIN"
+                            android:backgroundTint="@color/secondary"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:text="-"
+                        android:textSize="10pt"
+                        android:textStyle="bold"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        >
+                        <EditText
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:hint="MAX"
+                            android:backgroundTint="@color/secondary"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_apply"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terapkan"
+        android:layout_marginBottom="10dp"
+        android:shadowColor="@color/gray"
+        android:shadowDx="20"
+        android:shadowDy="20"
+        app:cornerRadius="20dp"
+        app:elevation="10dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

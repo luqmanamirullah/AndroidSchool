@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".fragments.JobFragment">
+
+    <ImageView
+        android:id="@+id/img_intro"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/job_notfound" />
+
+    <TextView
+        android:id="@+id/title_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/dark_gray"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Ups.. Kamu belum terdaftar 🥺" />
+
+    <TextView
+        android:id="@+id/desc_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:paddingHorizontal="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:text="Eits tenang, kamu bisa menjadi pekerja dengan mendaftar terlebih dahulu" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_to_job_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="70dp"
+        app:cornerRadius="50dp"
+        android:backgroundTint="@color/primary"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:text="Daftar" />
+
+</LinearLayout>
